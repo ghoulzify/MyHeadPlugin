@@ -1,0 +1,16 @@
+name: MyHeadPlugin
+main: com.ghoulz.myhead.MyHeadPlugin
+version: 1.0.0
+api-version: '1.21'
+description: Adds /myhead to claim your own head once per real-world day.
+author: Ghoulz
+website: https://example.invalid
+commands:
+  myhead:
+    description: Get your own player head (once per real-world day).
+    usage: /myhead
+    permission: myhead.use
+permissions:
+  myhead.use:
+    description: Allows use of /myhead
+    default: true
