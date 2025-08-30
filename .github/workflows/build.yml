@@ -24,7 +24,7 @@ jobs:
       run: mvn clean package -DskipTests
 
     - name: Upload JAR
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: MyHeadPlugin-jar
         path: target/*.jar
